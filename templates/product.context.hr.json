@@ -12,5 +12,62 @@
   "context": {
     "market": "hr"
   },
-  "sections": {}
+  "sections": {
+    "main": {
+      "settings": {
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked"
+      },
+      "blocks": {
+        "collapsible_tab_rRA8Yz": {
+          "settings": {
+            "heading": "Sastojci"
+          }
+        },
+        "collapsible-row-3": {
+          "settings": {
+            "heading": "Primjena",
+            "content": "<p>{{ product.metafields.custom.usage_instructions | metafield_tag }}</p>"
+          }
+        },
+        "complementary_9xyHm": {
+          "type": "complementary",
+          "disabled": false,
+          "settings": {
+            "paragraph-576a1ac3ba329db2085a1bf3baec1cab": null,
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 1,
+            "pagination_style": "counter",
+            "header-e70275ca966a5ebd407c62f390d85933": null,
+            "image_ratio": "square",
+            "enable_quick_add": false
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "caption",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "collapsible_tab_rRA8Yz",
+        "collapsible-row-3",
+        "collapsible-row-1",
+        "complementary_9xyHm"
+      ]
+    }
+  },
+  "order": [
+    "main",
+    "image-with-text",
+    "related-products"
+  ]
 }
