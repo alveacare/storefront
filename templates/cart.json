@@ -19,14 +19,20 @@
     },
     "1744107633730212fe": {
       "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "17443612175edec1e8": {
+      "type": "apps",
       "blocks": {
-        "keycode_loyalty_rewards_test_cart_n8M48U": {
+        "keycode_loyalty_rewards_test_cart_zyjXHq": {
           "type": "shopify://apps/keycode-loyalty-rewards/blocks/test-cart/11771895-685f-4f3f-b4f5-03b3c571817d",
           "settings": {}
         }
       },
       "block_order": [
-        "keycode_loyalty_rewards_test_cart_n8M48U"
+        "keycode_loyalty_rewards_test_cart_zyjXHq"
       ],
       "settings": {
         "include_margins": true
@@ -86,6 +92,7 @@
   "order": [
     "cart-items",
     "1744107633730212fe",
+    "17443612175edec1e8",
     "cart-footer",
     "featured-collection"
   ]
