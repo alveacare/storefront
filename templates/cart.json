@@ -32,18 +32,6 @@
         "include_margins": true
       }
     },
-    "174438243589d7b22e": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "17443612175edec1e8": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
     "cart-footer": {
       "type": "main-cart-footer",
       "blocks": {
@@ -98,8 +86,6 @@
   "order": [
     "cart-items",
     "1744107633730212fe",
-    "174438243589d7b22e",
-    "17443612175edec1e8",
     "cart-footer",
     "featured-collection"
   ]
