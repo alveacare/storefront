@@ -35,6 +35,10 @@
     "cart-footer": {
       "type": "main-cart-footer",
       "blocks": {
+        "keycode_loyalty_rewards_test_cart_RH7bCY": {
+          "type": "shopify://apps/keycode-loyalty-rewards/blocks/test-cart/11771895-685f-4f3f-b4f5-03b3c571817d",
+          "settings": {}
+        },
         "subtotal": {
           "type": "subtotal",
           "settings": {}
@@ -45,6 +49,7 @@
         }
       },
       "block_order": [
+        "keycode_loyalty_rewards_test_cart_RH7bCY",
         "subtotal",
         "buttons"
       ],
