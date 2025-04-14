@@ -17,13 +17,24 @@
         "padding_bottom": 36
       }
     },
+    "1744626555bf7c169b": {
+      "type": "apps",
+      "blocks": {
+        "keycode_loyalty_rewards_test_cart_eba37U": {
+          "type": "shopify://apps/keycode-loyalty-rewards/blocks/test-cart/11771895-685f-4f3f-b4f5-03b3c571817d",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "keycode_loyalty_rewards_test_cart_eba37U"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "cart-footer": {
       "type": "main-cart-footer",
       "blocks": {
-        "keycode_loyalty_rewards_test_cart_RH7bCY": {
-          "type": "shopify://apps/keycode-loyalty-rewards/blocks/test-cart/11771895-685f-4f3f-b4f5-03b3c571817d",
-          "settings": {}
-        },
         "subtotal_EFra6T": {
           "type": "subtotal",
           "settings": {}
@@ -34,7 +45,6 @@
         }
       },
       "block_order": [
-        "keycode_loyalty_rewards_test_cart_RH7bCY",
         "subtotal_EFra6T",
         "buttons"
       ],
@@ -71,21 +81,12 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "custom_liquid_PaiLHG": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "cart-items",
+    "1744626555bf7c169b",
     "cart-footer",
-    "featured-collection",
-    "custom_liquid_PaiLHG"
+    "featured-collection"
   ]
 }
