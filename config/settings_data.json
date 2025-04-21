@@ -137,6 +137,13 @@
       }
     },
     "content_for_index": [],
+    "blocks": {
+      "17020095381985187111": {
+        "type": "shopify://apps/keycode-loyalty-rewards/blocks/cart_rewards/11771895-685f-4f3f-b4f5-03b3c571817d",
+        "disabled": false,
+        "settings": {}
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
