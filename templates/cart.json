@@ -17,12 +17,6 @@
         "padding_bottom": 36
       }
     },
-    "1744626555bf7c169b": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
     "cart-footer": {
       "type": "main-cart-footer",
       "blocks": {
@@ -44,21 +38,6 @@
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 40
-      }
-    },
-    "1745230188fb6fc5af": {
-      "type": "apps",
-      "blocks": {
-        "keycode_loyalty_rewards_cart_subtotal_8nBkfX": {
-          "type": "shopify://apps/keycode-loyalty-rewards/blocks/cart_subtotal/11771895-685f-4f3f-b4f5-03b3c571817d",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "keycode_loyalty_rewards_cart_subtotal_8nBkfX"
-      ],
-      "settings": {
-        "include_margins": true
       }
     },
     "featured-collection": {
@@ -88,13 +67,27 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1745230197fd30258c": {
+      "type": "apps",
+      "blocks": {
+        "keycode_loyalty_rewards_cart_rewards_3nxdaH": {
+          "type": "shopify://apps/keycode-loyalty-rewards/blocks/cart_rewards/11771895-685f-4f3f-b4f5-03b3c571817d",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "keycode_loyalty_rewards_cart_rewards_3nxdaH"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "cart-items",
-    "1744626555bf7c169b",
+    "1745230197fd30258c",
     "cart-footer",
-    "1745230188fb6fc5af",
     "featured-collection"
   ]
 }
