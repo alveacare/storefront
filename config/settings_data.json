@@ -142,6 +142,11 @@
         "type": "shopify://apps/keycode-loyalty-rewards/blocks/cart_rewards/11771895-685f-4f3f-b4f5-03b3c571817d",
         "disabled": false,
         "settings": {}
+      },
+      "9065682131669331967": {
+        "type": "shopify://apps/keycode-loyalty-rewards/blocks/referral_form_plugin/11771895-685f-4f3f-b4f5-03b3c571817d",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
