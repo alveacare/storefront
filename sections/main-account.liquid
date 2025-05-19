@@ -134,6 +134,11 @@
               </ul>
             </nav>
           {%- endif -%}
+          {% else -%}
+            <div class="order-pagination">
+              <button id="prev-orders" class="btn" disabled>← Previous</button>
+              <button id="next-orders" class="btn">Next →</button>
+            </div>
         {%- endif -%}
       {% endpaginate %}
     </div>
