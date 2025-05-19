@@ -29,7 +29,7 @@
     <div>
       <h2>{{ 'customer.orders.title' | t }}</h2>
 
-      {% paginate customer.orders by 20 %}
+      {% paginate customer.orders by 5 %}
         {%- if customer.orders.size > 0 -%}
           <table role="table" class="order-history">
             <caption class="visually-hidden">
@@ -186,3 +186,46 @@
   ]
 }
 {% endschema %}
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const rowsPerPage = 5;
+    const rows = Array.from(document.querySelectorAll(".order-row"));
+    const totalRows = rows.length;
+    let currentPage = 1;
+    const totalPages = Math.ceil(totalRows / rowsPerPage);
+
+    const prevBtn = document.getElementById("prev-orders");
+    const nextBtn = document.getElementById("next-orders");
+
+    function renderPage(page) {
+      const start = (page - 1) * rowsPerPage;
+      const end = start + rowsPerPage;
+
+      rows.forEach((row, index) => {
+        row.style.display = index >= start && index < end ? "" : "none";
+      });
+
+      prevBtn.disabled = page === 1;
+      nextBtn.disabled = page === totalPages;
+    }
+
+    prevBtn.addEventListener("click", function () {
+      if (currentPage > 1) {
+        currentPage--;
+        renderPage(currentPage);
+      }
+    });
+
+    nextBtn.addEventListener("click", function () {
+      if (currentPage < totalPages) {
+        currentPage++;
+        renderPage(currentPage);
+      }
+    });
+
+    // Initial render
+    renderPage(currentPage);
+  });
+</script>
+
