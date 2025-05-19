@@ -218,6 +218,7 @@
     });
 
     nextBtn.addEventListener("click", function () {
+      console.log("clicked button next")
       if (currentPage < totalPages) {
         currentPage++;
         renderPage(currentPage);
