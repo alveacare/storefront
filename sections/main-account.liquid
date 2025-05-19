@@ -135,16 +135,10 @@
             </nav>
           {%- endif -%}
           {% else -%}
-            <nav class="order-pagination">
-              <ul>
-                <li>
-                  <button id="prev-orders" class="btn" disabled>← Previous</button>
-                </li>
-                <li>
-                  <button id="next-orders" class="btn">Next →</button>
-                </li>
-              </ul>
-            </nav>
+            <div class="order-pagination">
+              <button id="prev-orders" class="btn" disabled>← Previous</button>
+              <button id="next-orders" class="btn">Next →</button>
+            </div>
         {%- endif -%}
       {% endpaginate %}
     </div>
