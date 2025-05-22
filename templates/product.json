@@ -52,6 +52,10 @@
             "show_gift_card_recipient": true
           }
         },
+        "keycode_loyalty_rewards_product_point_reward_FCx7ke": {
+          "type": "shopify://apps/keycode-loyalty-rewards/blocks/product_point_reward/11771895-685f-4f3f-b4f5-03b3c571817d",
+          "settings": {}
+        },
         "description": {
           "type": "description",
           "settings": {}
@@ -97,10 +101,6 @@
             "content": "",
             "page": ""
           }
-        },
-        "keycode_loyalty_rewards_product_point_reward_FCx7ke": {
-          "type": "shopify://apps/keycode-loyalty-rewards/blocks/product_point_reward/11771895-685f-4f3f-b4f5-03b3c571817d",
-          "settings": {}
         }
       },
       "block_order": [
@@ -111,13 +111,13 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "keycode_loyalty_rewards_product_point_reward_FCx7ke",
         "description",
         "collapsible_tab_rRA8Yz",
         "collapsible-row-3",
         "collapsible-row-2",
         "share",
-        "collapsible-row-1",
-        "keycode_loyalty_rewards_product_point_reward_FCx7ke"
+        "collapsible-row-1"
       ],
       "settings": {
         "enable_sticky_info": true,
