@@ -41,9 +41,12 @@
             "swatch_shape": "circle"
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
         },
         "keycode_loyalty_rewards_product_point_reward_FCx7ke": {
           "type": "shopify://apps/keycode-loyalty-rewards/blocks/product_point_reward/11771895-685f-4f3f-b4f5-03b3c571817d",
@@ -102,7 +105,7 @@
         "caption",
         "price",
         "variant_picker",
-        "quantity_selector",
+        "buy_buttons",
         "keycode_loyalty_rewards_product_point_reward_FCx7ke",
         "description",
         "collapsible_tab_rRA8Yz",
