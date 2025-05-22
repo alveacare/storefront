@@ -21,6 +21,11 @@
         "gallery_layout": "stacked"
       },
       "blocks": {
+        "keycode_loyalty_rewards_product_point_reward_W7iAn": {
+          "type": "shopify://apps/keycode-loyalty-rewards/blocks/product_point_reward/11771895-685f-4f3f-b4f5-03b3c571817d",
+          "disabled": false,
+          "settings": {}
+        },
         "collapsible_tab_rRA8Yz": {
           "settings": {
             "heading": "Sastojci"
@@ -36,14 +41,14 @@
           "type": "complementary",
           "disabled": false,
           "settings": {
-            "paragraph-576a1ac3ba329db2085a1bf3baec1cab": null,
+            "paragraph-3d0ae94b9d3b9f4a197129f708608626": null,
             "block_heading": "Pairs well with",
             "make_collapsible_row": false,
             "icon": "price_tag",
             "product_list_limit": 10,
             "products_per_page": 1,
             "pagination_style": "counter",
-            "header-e70275ca966a5ebd407c62f390d85933": null,
+            "header-27e77b563a49f8570c77d07bda2027b5": null,
             "image_ratio": "square",
             "enable_quick_add": false
           }
@@ -57,6 +62,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "keycode_loyalty_rewards_product_point_reward_W7iAn",
         "description",
         "collapsible_tab_rRA8Yz",
         "collapsible-row-3",
