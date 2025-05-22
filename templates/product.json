@@ -232,12 +232,28 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "17479081443ba79371": {
+      "type": "apps",
+      "blocks": {
+        "keycode_loyalty_rewards_product_point_reward_keCnRf": {
+          "type": "shopify://apps/keycode-loyalty-rewards/blocks/product_point_reward/11771895-685f-4f3f-b4f5-03b3c571817d",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "keycode_loyalty_rewards_product_point_reward_keCnRf"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "image-with-text",
     "multicolumn",
-    "related-products"
+    "related-products",
+    "17479081443ba79371"
   ]
 }
