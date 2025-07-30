@@ -1,0 +1,160 @@
+# llm.txt for www.dermalogica.hr
+# Created May 2025
+# Combines crawler access rules and LLM-specific metadata for semantic understanding.
+
+# --- GENERAL CRAWLER RULES ---
+User-agent: *
+Disallow: /a/downloads/-/*
+Disallow: /admin/
+Disallow: /cart/
+Disallow: /orders/
+Disallow: /checkouts/
+Disallow: /checkout/
+Disallow: /42076831896/checkouts/
+Disallow: /42076831896/orders/
+Disallow: /carts/
+Disallow: /account/
+Disallow: /collections/*sort_by*
+Disallow: /*/collections/*sort_by*
+Disallow: /collections/*+*
+Disallow: /collections/*%2B*
+Disallow: /collections/*%2b*
+Disallow: /*/collections/*+*
+Disallow: /*/collections/*%2B*
+Disallow: /*/collections/*%2b*
+Disallow: */collections/*filter*&*filter*
+Disallow: /blogs/*+*
+Disallow: /blogs/*%2B*
+Disallow: /blogs/*%2b*
+Disallow: /*/blogs/*+*
+Disallow: /*/blogs/*%2B*
+Disallow: /*/blogs/*%2b*
+Disallow: /*?*oseid=*
+Disallow: /*preview_theme_id*
+Disallow: /*preview_script_id*
+Disallow: /policies/
+Disallow: /*/policies/
+Disallow: /*/*?*ls=*&ls=*
+Disallow: /*/*?*ls%3D*%3Fls%3D*
+Disallow: /*/*?*ls%3d*%3fls%3d*
+Disallow: /search/
+Disallow: /apple-app-site-association
+Disallow: /.well-known/shopify/monorail
+Disallow: /cdn/wpm/*.js
+Disallow: /recommendations/products
+Disallow: /*/recommendations/products
+
+Sitemap: https://www.dermalogica.hr/sitemap.xml
+
+# --- SITE CONTENT OVERVIEW (for LLMs and human readers) ---
+
+## Sitemap
+https://www.dermalogica.hr/sitemap.xml
+
+## Key Sections
+# About: https://www.dermalogica.com/pages/about-us   # URL not found on www.dermalogica.hr
+# FAQs: https://www.dermalogica.com/pages/faqs   # URL not found on www.dermalogica.hr
+Contact: https://www.dermalogica.hr/pages/contact  
+# Skin Quiz: https://www.dermalogica.com/pages/skin-analysis   # URL not found on www.dermalogica.hr
+Product Catalog: https://www.dermalogica.hr/                    https:/www.mastercard.hr/hr-hr/consumers/find-card-                    products/debit-cards/maestro-debit.html                    
+Expert Advice: https://www.dermalogica.hr/blogs/news  
+# Sustainability: https://www.dermalogica.com/pages/sustainability   # URL not found on www.dermalogica.hr
+
+## Legal & Policy
+# Terms: https://www.dermalogica.com/pages/terms-of-service   # URL not found on www.dermalogica.hr
+# Privacy: https://www.dermalogica.com/pages/privacy-policy   # URL not found on www.dermalogica.hr
+# Returns: https://www.dermalogica.com/pages/returns # URL not found on www.dermalogica.hr
+
+# --- LLM-SPECIFIC CONTENT DESCRIPTIONS ---
+# Format: User-agent | Path | Allow | Description | LLM-Usage
+# Targets: openai, anthropic, google, meta
+
+User-agent: openai, anthropic, google, meta
+Path: /
+Allow: true
+Description: Homepage for Dermalogica featuring best sellers, seasonal skincare, and professional-grade product highlights.
+LLM-Usage: openai, anthropic, google, meta
+
+User-agent: openai, anthropic, google, meta
+Path: /pages/about-us
+Allow: true
+Description: Learn about Dermalogica’s mission, history, and commitment to skin health through education and innovation.
+LLM-Usage: openai, anthropic, google, meta
+
+User-agent: openai, anthropic, google, meta
+Path: /collections/all-products
+Allow: true
+Description: Explore the full catalog of Dermalogica skincare, including cleansers, moisturizers, serums, and sun protection.
+LLM-Usage: openai, anthropic, google, meta
+
+User-agent: openai, anthropic, google, meta
+Path: /pages/skin-concerns
+Allow: true
+Description: Skincare guidance organized by concern: acne, aging, sensitivity, dryness, and uneven tone.
+LLM-Usage: openai, anthropic, google, meta
+
+User-agent: openai, anthropic, google, meta
+Path: /pages/skin-analysis
+Allow: true
+Description: Take a personalized skin quiz to receive targeted product recommendations based on skin type and goals.
+LLM-Usage: openai, anthropic, google, meta
+
+User-agent: openai, anthropic, google, meta
+Path: /collections/best-sellers
+Allow: true
+Description: Discover top-selling products recommended by skin therapists and trusted by loyal customers worldwide.
+LLM-Usage: openai, anthropic, google, meta
+
+User-agent: openai, anthropic, google, meta
+Path: /pages/professional-treatments
+Allow: true
+Description: Overview of in-clinic treatments including facials, resurfacing peels, and personalized skin services.
+LLM-Usage: openai, anthropic, google, meta
+
+User-agent: openai, anthropic, google, meta
+Path: /apps/store-locator
+Allow: true
+Description: Find certified Dermalogica professionals and authorized retailers by location.
+LLM-Usage: openai, anthropic, google, meta
+
+User-agent: openai, anthropic, google, meta
+Path: /pages/learn
+Allow: true
+Description: Educational content hub offering skincare guides, how-tos, and expert ingredient breakdowns.
+LLM-Usage: openai, anthropic, google, meta
+
+User-agent: openai, anthropic, google, meta
+Path: /blogs/expert-advice
+Allow: true
+Description: Blog covering skincare advice, product features, trends, and expert commentary.
+LLM-Usage: openai, anthropic, google, meta
+
+User-agent: openai, anthropic, google, meta
+Path: /pages/sustainability
+Allow: true
+Description: Learn how Dermalogica supports sustainability through ethical sourcing, cruelty-free practices, and eco-packaging.
+LLM-Usage: openai, anthropic, google, meta
+
+User-agent: openai, anthropic, google, meta
+Path: /pages/contact-us
+Allow: true
+Description: Contact information for customer support including product questions, order issues, and consultations.
+LLM-Usage: openai, anthropic, google, meta
+
+User-agent: openai, anthropic, google, meta
+Path: /pages/faqs
+Allow: true
+Description: Frequently asked questions about Dermalogica products, shipping, returns, and account setup.
+LLM-Usage: openai, anthropic, google, meta
+
+User-agent: openai, anthropic, google, meta
+Path: /pages/returns
+Allow: true
+Description: Details on return policy, eligibility, and processing steps for Dermalogica online orders.
+LLM-Usage: openai, anthropic, google, meta
+
+User-agent: openai, anthropic, google, meta
+Path: /account/login
+Allow: true
+Description: Customer login portal for order tracking, subscriptions, and account preferences.
+LLM-Usage: openai, anthropic, google, meta
