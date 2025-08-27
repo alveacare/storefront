@@ -20,13 +20,13 @@
     "1745230197fd30258c": {
       "type": "apps",
       "blocks": {
-        "keycode_loyalty_rewards_cart_rewards_HCiWW8": {
+        "keycode_loyalty_rewards_cart_rewards_UEyWpP": {
           "type": "shopify://apps/keycode-loyalty-rewards/blocks/cart_rewards/11771895-685f-4f3f-b4f5-03b3c571817d",
           "settings": {}
         }
       },
       "block_order": [
-        "keycode_loyalty_rewards_cart_rewards_HCiWW8"
+        "keycode_loyalty_rewards_cart_rewards_UEyWpP"
       ],
       "settings": {
         "include_margins": true
