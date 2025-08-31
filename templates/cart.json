@@ -20,13 +20,13 @@
     "1745230197fd30258c": {
       "type": "apps",
       "blocks": {
-        "keycode_loyalty_rewards_cart_rewards_C7qKtT": {
-          "type": "shopify://apps/keycode-loyalty-rewards/blocks/cart_rewards/11771895-685f-4f3f-b4f5-03b3c571817d",
+        "keycode_loyalty_rewards_product_point_reward_d6deWU": {
+          "type": "shopify://apps/keycode-loyalty-rewards/blocks/product_point_reward/11771895-685f-4f3f-b4f5-03b3c571817d",
           "settings": {}
         }
       },
       "block_order": [
-        "keycode_loyalty_rewards_cart_rewards_C7qKtT"
+        "keycode_loyalty_rewards_product_point_reward_d6deWU"
       ],
       "settings": {
         "include_margins": true
